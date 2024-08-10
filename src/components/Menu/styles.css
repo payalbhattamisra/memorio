@@ -13,9 +13,18 @@
   animation: slideDownBounce 1.5s ease forwards;
   position: absolute;
   top: -350px;
-  margin-left: -270px;
-  width: 550px;
+  margin-left: -700px;
+  width: 50px;
   z-index: 3;
+}
+.nist{
+  animation: slideDownBounce 1.5s ease forwards;
+  position: absolute;
+  top: -300px;
+  margin-right: -500px;
+  width: 60px;
+  z-index: 3;
+  display: none;
 }
 
 @keyframes zoomFadeIn {
@@ -82,11 +91,11 @@
 
 .how-to-play-section {
   position: absolute;
-  top: -250px;
-  margin-left: -370px;
+  top: -320px;
+  margin-left: -400px;
   z-index: 2;
 }
 
 .how-to-play-section img {
-  width: 820px;
+  width: 920px;
 }

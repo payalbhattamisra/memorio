@@ -4,6 +4,7 @@ import logoImage from "../../assets/menu/logo.png";
 import howToPlayImage from "../../assets/menu/how-to-play.png";
 import startFrameImage from "../../assets/menu/start-frame.png";
 import startButtonImage from "../../assets/menu/start-button.png";
+import nistImage from "../../assets/menu/NIST.png";
 
 import "./styles.css";
 
@@ -18,6 +19,7 @@ export const Menu: React.FC<MenuProps> = ({ send }) => {
   return (
     <div style={{ position: "absolute", zIndex: 5 }}>
       <img src={logoImage} alt="Logo Memorio" className="logo" />
+      <img src={nistImage} alt="nist Image" className="nist"/>
       <div className="how-to-play-section">
         <img src={howToPlayImage} alt="How to Play" className="how-to-play" />
       </div>
